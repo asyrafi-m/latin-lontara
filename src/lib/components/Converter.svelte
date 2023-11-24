@@ -283,49 +283,7 @@
     {#if method == ConverterMethod.LatinToLontara }
     <section class="row" style="display: none;">
         <div class="col">
-            <h4>Keterangan Penggunaan</h4>
-            <ul class="list-unstyled">
-                <li>
-                    <h5>Mode Ketik Pepet</h5>
-                    <p>Saat diaktifkan, tombol x pada keyboard akan digantikan fungsinya untuk mengetikkan huruf ê yang merepresentasikan ꦼ (Pepet) dalam aksara jawa. 
-                    Huruf ê sendiri menghasilkan bunyi seperti huruf e pada kata "enam".</p>
-                </li>
-                <li>
-                    <h5>Abaikan Spasi</h5>
-                    <p>Saat diaktifkan, proses konversi akan mengabaikan spasi dari kolom masukan. Sebaliknya jika dinonaktifkan, spasi akan dikonversikan menjadi <i>zero width space</i> alias spasi yang tidak terlihat.</p>                
-                </li>
-                <li>
-                    <h5>Murda</h5>
-                    <p>Saat diaktifkan, aksara pertama dari aksara-aksara ꦤ, ꦏ, ꦠ, ꦱ, ꦥ, ꦘ, ꦒ, ꦧ akan diubah ke dalam bentuk aksara murda-nya ꦟ, ꦑ, ꦡ, ꦯ, ꦦ, ꦟ, ꦓ, ꦨ.
-                    Dalam aksara jawa, aksara murda digunakan layaknya huruf kapital dalam bahasa Indonesia dan dipakai khusus untuk penulisan nama, gelar, atau tempat.</p>
-                </li>
-                <li>
-                    <h5>Diftong</h5>
-                    <p>Saat diaktifkan, gugus vokal 'ai', 'au' dan vokal panjang 'aa', 'ii', 'uu' akan diubah menjadi karakter spesial aksara jawa, yakni ꦻ (Dirga Mure) untuk 'ai', ꦻꦴ (Dirga Mure Tarung) untuk 'au', ꦴ (Tarung) untuk 'aa', ꦷ (Dirga Melik) untuk 'ii', dan ꦹ (Dirga Mendhut) untuk 'uu'.</p>
-                </li>
-                <li>
-                    <h5>Tombol Karakter Spesial</h5>
-                    <p>Berisikan tombol-tombol untuk mengetikkan karakter-karakter spesial yang digunakan untuk merepresentasikan huruf-huruf aksara jawa yang tidak dapat diwakili oleh alfabet A-Z.</p>
-                    <p>Berikut karakter-karakter spesial yang digunakan dalam konverter ini beserta hasil konversinya :</p>
-                    <ul style="margin-block-end: 1em">
-                        <li>Ê menghasilkan ꦄꦼ (Swara Ê)</li>  
-                        <li>ê menghasilkan  ꦼ (Pepet)</li>
-                        <li>ā menghasilkan ꦴ (Tarung)</li>  
-                        <li>ī menghasilkan ꦷ (Dirga Melik)</li>  
-                        <li>ū menghasilkan ꦹ (Dirga Mendhut)</li>
-                        <li>ḍ menghasilkan ꦝ (Dha)</li>  
-                        <li>ḍh menghasilkan ꦞ (Dha Mahaprana)</li> 
-                        <li>ṣ menghasilkan ꦰ (Sa Mahaprana)</li>
-                        <li>ś menghasilkan ꦯ (Sa Murda)</li>
-                        <li>ṭ menghasilkan ꦡ (Ta Murda)</li> 
-                        <li>ṭh menghasilkan ꦜ (Tha Mahaprana)</li> 
-                        <li>ṇ menghasilkan ꦟ (Na Murda)</li> 
-                        <li>ñ menghasilkan ꦚ (Nya)</li>
-                        <li>ŋ menghasilkan ꦔ (Nga)</li> 
-                    </ul>
-                    <p>Karakter spesial ñ dan ŋ sama dengan ny dan ng dalam bahasa indonesia</p>
-                </li>
-            </ul>
+            <h4>Reserved for Notes and Instructions</h4>
         </div>
     </section>
     {/if}
