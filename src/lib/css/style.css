@@ -221,6 +221,32 @@ a:hover:not(.button) {
     background: var(--color-primary);
 }
 
+.warning-text{
+    background-color: #ebe4d5; 
+    color: #505c76; 
+    padding:0px 5px; 
+    margin: 0 -5px 1.8rem -5px; 
+    border-radius:.5rem;
+}
+
+.dev-by{
+    color:#505c76;
+    margin:.5rem;
+    font-size: 1.4rem;
+}
+
+.footer-sticky-btm{
+    width: 100%;
+    background-color: #ebe4d5;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align:center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .tooltip {
     position:relative;
 }

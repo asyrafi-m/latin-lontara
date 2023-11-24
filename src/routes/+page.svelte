@@ -41,10 +41,12 @@
         <div class="col" style="margin-left: 5%;">
           <h1 style="font-weight: 900; font-size:8rem; margin-bottom:0; margin-top:-15%;">ᨒᨚᨈᨑ <span style="font-weight: 200;"> link</span></h1>
           <p>Seamlessly transliterate Latin script to Lontara with a single click, preserving linguistic authenticity and cultural richness. Break through language barriers and elevate your research connectivity. </p>
+
+          <div class="warning-text" style=""><p style="margin-bottom: 0px;">Please note that this is a prototype version and it is only supported on desktop devices. Using the prototype on a mobile device may lead to inacurate results. <b>Lontara script to Latin script</b> and <b>mobile version</b> will be available in near future.</p></div>
+
           <a href="{ base }/latin-lontara" class="button primary">Try Now</a>
         </div>
       </div>
-    
       <!-- <div class="row">
         <div class="col-8">
           <h4>Sekilas Tentang alih aksara</h4>
