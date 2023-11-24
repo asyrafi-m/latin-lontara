@@ -42,9 +42,13 @@
           <h1 style="font-weight: 900; font-size:8rem; margin-bottom:0; margin-top:-15%;">ᨒᨚᨈᨑ <span style="font-weight: 200;"> link</span></h1>
           <p>Seamlessly transliterate Latin script to Lontara with a single click, preserving linguistic authenticity and cultural richness. Break through language barriers and elevate your research connectivity. </p>
 
-          <div class="warning-text" style=""><p style="margin-bottom: 0px;">Please note that this is a prototype version and it is only supported on desktop devices. Using the prototype on a mobile device may lead to inacurate results. <b>Lontara script to Latin script</b> and <b>mobile version</b> will be available in near future.</p></div>
+          <div class="warning-text" style=""><p style="margin-bottom: 0px;">Please note that this is a prototype version and currently only supported on desktop devices. Using the prototype on a mobile device may lead to inacurate results. <b>Lontara script to Latin script</b> and <b>mobile version</b> will be available in near future.</p></div>
 
           <a href="{ base }/latin-lontara" class="button primary">Try Now</a>
+        </div>
+        <div class="footer-sticky-btm">
+          <p class="dev-by">Latin-Lontara 2023 | lontaradigital@gmail.com <br>This web app is built based on the "alih-aksara" project by Aditya Rahmanda, licensed under GNU GPL-3.0. Original source code: https://github.com/adityarahmanda/alih-aksara
+          </p>
         </div>
       </div>
       <!-- <div class="row">
