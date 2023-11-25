@@ -205,6 +205,10 @@ section.row{
     background-color: var(--color-lightBrown);
 }
 
+.converter-output .content span{
+    margin-left:1rem;
+}
+
 .converter-output .copy {
     position: absolute;
     bottom: 5px;
