@@ -9,6 +9,10 @@
     --converter-padding-x: 1rem;
 }
 
+a {
+    text-decoration: underline;
+}
+
 html, body {
     height: 100vh;
     padding: 0;
