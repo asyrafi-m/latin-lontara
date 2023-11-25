@@ -46,10 +46,7 @@
 
           <a href="{ base }/latin-lontara" class="button primary">Try Now</a>
         </div>
-        <div class="footer-sticky-btm">
-          <p class="dev-by">Latin-Lontara 2023 | lontaradigital@gmail.com <br>This web app is built based on the "alih-aksara" project by Aditya Rahmanda, licensed under GNU GPL-3.0. Original source code: https://github.com/adityarahmanda/alih-aksara
-          </p>
-        </div>
+        
       </div>
       <!-- <div class="row">
         <div class="col-8">
@@ -75,5 +72,8 @@
           </div>
         </div>
       </div> -->
-    
+      <div class="footer-sticky-btm">
+        <p class="dev-by">Latin-Lontara 2023 | lontaradigital@gmail.com <br>This web app is built based on the "alih-aksara" project by Aditya Rahmanda, licensed under GNU GPL-3.0. Original source code: https://github.com/adityarahmanda/alih-aksara
+        </p>
+      </div>
     </section>

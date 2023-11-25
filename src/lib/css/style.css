@@ -10,9 +10,10 @@
 }
 
 html, body {
-    height: 100%;
-    padding: 5%;
+    height: 100vh;
+    padding: 0;
     background-color: #f7f6f4;
+    display: flex;
 }
 
 main {
@@ -23,6 +24,18 @@ main {
 
 main section {
     flex: 1 1 auto;
+}
+
+.hero {
+    width: 80%;
+    flex: 1;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -238,9 +251,6 @@ a:hover:not(.button) {
 .footer-sticky-btm{
     width: 100%;
     background-color: #ebe4d5;
-    position: absolute;
-    bottom: 0;
-    left: 0;
     text-align:center;
     display:flex;
     align-items: center;
@@ -291,11 +301,14 @@ a:hover:not(.button) {
 
 @media screen and (max-width: 900px) {
     .hero {
-        flex-direction: column-reverse;
         margin-top: 2em; 
         margin-bottom: 2em;
     }
     
+    section {
+        justify-content: normal;
+    }
+
     .hero .illustration-image {
         text-align: center;
     }
