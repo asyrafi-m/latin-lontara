@@ -73,7 +73,7 @@
         </div>
       </div> -->
       <div class="footer-sticky-btm">
-        <p class="dev-by">Lontara Digital 2023 | lontaradigital@gmail.com <br>Lontara Digital is a joint undertaking by two Leiden University PhD candidates in history, <a href="https://www.universiteitleiden.nl/en/staffmembers/muhammad-asyrafi#tab-1">Asyrafi</a> and <a href="https://www.universiteitleiden.nl/en/staffmembers/louie-buana#tab-1">Louie Buana</a>.<br>This web app is built based on the "alih-aksara" project by Aditya Rahmanda, licensed under GNU GPL-3.0. Original source code: <a href="https://github.com/adityarahmanda/alih-aksara">https://github.com/adityarahmanda/alih-aksara</a>
+        <p class="dev-by">Lontara Digital 2023 | lontaradigital@gmail.com <br>Lontara Digital is a joint undertaking by two Leiden University PhD candidates in history, <a href="https://www.universiteitleiden.nl/en/staffmembers/muhammad-asyrafi#tab-1">Asyrafi</a> and <a href="https://www.universiteitleiden.nl/en/staffmembers/louie-buana#tab-1">Louie Buana</a>. This web app is built based on the "alih-aksara" project by Aditya Rahmanda, licensed under GNU GPL-3.0. Original source code: <a href="https://github.com/adityarahmanda/alih-aksara">https://github.com/adityarahmanda/alih-aksara</a>
         </p>
       </div>
     </section>
