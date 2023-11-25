@@ -281,9 +281,11 @@
     </section>
     
     {#if method == ConverterMethod.LatinToLontara }
-    <section class="row" style="display: none;">
+    <section class="row" style="">
         <div class="col">
-            <h4>Reserved for Notes and Instructions</h4>
+            <h4>Lontara Script Ambiguity</h4>
+            <p>Lontara script does have <a href="https://en.wikipedia.org/wiki/Lontara_script#Ambiguity">certain ambiguity</a> in the writing. It does not have a virama to write syllable codas.<br> For example Bugis words like <b><i>sara'</i></b> (to rule), and <b><i>sarang</i></b> (nest) would all be written as <b><i>sara</i></b> (sadness) <b>ᨔᨑ</b>.
+            <br>We are still working on a convention to translate it to the converter.</p>
         </div>
     </section>
     {/if}
