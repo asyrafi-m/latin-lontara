@@ -170,7 +170,7 @@ a:hover:not(.button) {
 }
 
 section.converter {
-    height:100vh;
+    height:auto;
     justify-content: flex-start;
     margin-top:5%;
 }
