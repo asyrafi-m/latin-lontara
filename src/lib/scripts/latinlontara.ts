@@ -231,6 +231,9 @@ const pada:{ [id: string]: string; } = {
 }
 
 function convert(str:string, isIgnoreSpace:boolean = false, isMurda:boolean = false, isDiphthong:boolean = false):string {
+    // Remove consecutive double characters
+    str = str.replace(/(.)\1/g, '$1');
+    
     var length = str.length;
     var output = [];
     var isMurdaAlreadyIncluded = false;
@@ -239,7 +242,8 @@ function convert(str:string, isIgnoreSpace:boolean = false, isMurda:boolean = fa
     for (var i = 0; i < length; i++)
     {
         var c:string = str[i];
-
+        // Remove single quote
+        str = str.replace(/'/g, '');
         // Check for "mba" and replace it with "ba"
         if (i + 2 < length && c.toLowerCase() === 'm' && str[i + 1].toLowerCase() === 'b' && str[i + 2].toLowerCase() === 'a') {
             output.push('ᨅ');
