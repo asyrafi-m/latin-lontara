@@ -284,6 +284,45 @@ function convert(str:string, isIgnoreSpace:boolean = false, isMurda:boolean = fa
             i += 2; // Skip the next two characters 'b' and 'a'
             continue;
         }
+        
+        // nga
+
+        // Check for "mba" and replace it with "ba"
+        if (i + 2 < length && c.toLowerCase() === 'n' && str[i + 1].toLowerCase() === 'g' && str[i + 2].toLowerCase() === 'a') {
+            output.push('ᨂ');
+            i += 2; // Skip the next two characters 'b' and 'a'
+            continue;
+        }
+        // Check for "mbi" and replace it with "bi"
+        if (i + 2 < length && c.toLowerCase() === 'n' && str[i + 1].toLowerCase() === 'g' && str[i + 2].toLowerCase() === 'i') {
+            output.push('ᨂᨗ');
+            i += 2; // Skip the next two characters 'b' and 'a'
+            continue;
+        }
+        // Check for "ngu" and replace it with "ba"
+        if (i + 2 < length && c.toLowerCase() === 'n' && str[i + 1].toLowerCase() === 'g' && str[i + 2].toLowerCase() === 'u') {
+            output.push('ᨂᨘ');
+            i += 2; // Skip the next two characters 'b' and 'a'
+            continue;
+        }
+        // Check for "mba" and replace it with "ba"
+        if (i + 2 < length && c.toLowerCase() === 'n' && str[i + 1].toLowerCase() === 'g' && str[i + 2].toLowerCase() === 'e') {
+            output.push('ᨂᨛ');
+            i += 2; // Skip the next two characters 'b' and 'a'
+            continue;
+        }
+        // Check for "mba" and replace it with "ba"
+        if (i + 2 < length && c.toLowerCase() === 'n' && str[i + 1].toLowerCase() === 'g' && str[i + 2].toLowerCase() === 'o') {
+            output.push('ᨂᨚ');
+            i += 2; // Skip the next two characters 'b' and 'a'
+            continue;
+        }
+        // Check for "mba" and replace it with "ba"
+        if (i + 2 < length && c.toLowerCase() === 'n' && str[i + 1].toLowerCase() === 'g' && str[i + 2].toLowerCase() === 'é') {
+            output.push('ᨂᨙ');
+            i += 2; // Skip the next two characters 'b' and 'a'
+            continue;
+        }
 
         //mpa
 
