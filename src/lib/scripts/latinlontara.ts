@@ -167,6 +167,7 @@ const inasure:{ [id: string]: string; }  = {
     yé: 'ᨐᨙ',       // ya
     yo: 'ᨐᨚ',       // ya
     yu: 'ᨐᨘ',       // ya
+    '.':'᨞'
 }
 
 const anasure:{ [id: string]: string; } = { 
