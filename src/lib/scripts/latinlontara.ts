@@ -25,8 +25,8 @@ const inasure:{ [id: string]: string; }  = {
     di: 'ᨉᨗ',       // da
     de: 'ᨉᨛ',       // da
     dé: 'ᨉᨙ',       // da
-    du: 'ᨉᨚ',       // da
-    do: 'ᨉᨘ',       // da
+    do: 'ᨉᨚ',       // da
+    du: 'ᨉᨘ',       // da
     g: 'ᨁ',       // ga
     ga: 'ᨁ',       // ga
     gi: 'ᨁᨗ',       // ga
