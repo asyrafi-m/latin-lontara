@@ -33,7 +33,7 @@
       <div class="row hero is-vertical-align">
         <div class="col illustration-image" style="text-align: left;">
           <picture>
-            <source type="image/webp" media="(min-width:900px)" width="420" srcset="{ base }/La_galigo.jpg">
+            <source type="image/webp" media="(min-width:900px)" width="420" srcset="{ base }/La_galigo.png">
             <source type="image/webp" width="360" srcset="{ base }/La_galigo.jpg">
             <img src="{ base }/La_galigo.jpg"  alt="Illustration">
           </picture>
